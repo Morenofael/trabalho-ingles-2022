@@ -22,6 +22,11 @@ a{
     height: 500px;
     width: auto;
 }
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 .images{
     display: flex;
     gap: 1rem;
@@ -31,4 +36,29 @@ a{
     flex-direction: column;
     width: 200px;
     height:200px;
+}
+.metascore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 50%;
+    font-size: 40px;
+    color: antiquewhite;
+}
+#hero-text{
+    font-size: 150%;
+}
+
+/*text*/
+#review-text{
+    margin:20px;
+}
+.text-div{
+    display:flex;
+    gap:10px;
+}
+.wide-text-pic{
+    height: 215px;
+    width: auto;
 }
