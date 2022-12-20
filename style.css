@@ -62,3 +62,12 @@ a{
     height: 215px;
     width: auto;
 }
+.tall-text-pic{
+    height: 350px;
+    width:auto;
+}
+#footer{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
